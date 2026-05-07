@@ -1,0 +1,10 @@
+type Props = { title: string; subtitle?: string };
+
+export default function SectionTitle({ title, subtitle }: Props) {
+  return (
+    <div className="section-title">
+      <h2>{title}</h2>
+      {subtitle ? <p className="section-subtitle">{subtitle}</p> : null}
+    </div>
+  );
+}

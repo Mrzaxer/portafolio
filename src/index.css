@@ -1,0 +1,59 @@
+:root {
+  --text: #4e5565;
+  --text-h: #151823;
+  --bg: #f6f8ff;
+  --bg-soft: #ffffffd9;
+  --border: #dce2f3;
+  --accent: #6d5efc;
+  --accent-bg: rgba(109, 94, 252, 0.12);
+  --accent-border: rgba(109, 94, 252, 0.35);
+  --glass: rgba(255, 255, 255, 0.73);
+  --shadow: rgba(17, 24, 39, 0.12) 0 12px 25px -15px;
+
+  font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  color: var(--text);
+  background-color: var(--bg);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 10% 5%, rgba(109, 94, 252, 0.14), transparent 35%),
+    radial-gradient(circle at 95% 0%, rgba(16, 185, 129, 0.11), transparent 28%),
+    var(--bg);
+}
+
+#root {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--text-h);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  margin: 0.35rem 0;
+}
+
+h2 {
+  font-size: clamp(1.35rem, 2.2vw, 1.85rem);
+  margin: 0 0 0.35rem;
+}
+
+a {
+  color: var(--accent);
+}
