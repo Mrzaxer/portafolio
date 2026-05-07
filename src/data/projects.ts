@@ -7,7 +7,7 @@ export const projects: Project[] = [
       "Aplicacion PWA para digitalizar formularios de inicio y fin de guardia de paramedicos, con gestion de roles, sedes y reportes diarios de consumo de ambulancias.",
     tech: ["React", "TypeScript", "Node.js", "PostgreSQL", "PWA"],
     github: "https://github.com/Mrzaxer/Cruz-Roja-Front.git",
-    demo: "https://cruz-roja-front-alpha.vercel.app/login",
+    demo: "https://cruz-roja-front-alpha.vercel.app/",
   },
   {
     title: "Sistema de Gestion de Peticiones - Hospital Puerta de Hierro",
